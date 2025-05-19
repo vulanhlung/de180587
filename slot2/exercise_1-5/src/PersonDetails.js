@@ -7,6 +7,7 @@ function PersonDetails() {
 
   return (
     <div>
+      <h2>people detail</h2>
       <p>Name: {person.name}</p>
       <p>Age: {person.age}</p>
       <p>Occupation: {person.occupation}</p>
