@@ -6,6 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import ListEmployees from './ListEmployees';
 import TableEmployees from './TableEmployees';
 import AverageAge from './AverageAge';
+import EmployeeDropdown from './EmployeeDropdown';
+import ITDepartment from './ITDepartment';
+import SortEmployees from './SortEmployee';
+import GroupDepartment from './GroupEmployeeByDepartment';
+import TeenagerCheck from './TeenagerCheck';
+import SearchEmployee from './SearchEmployee';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +20,12 @@ root.render(
     <ListEmployees />
     <TableEmployees/>
     <AverageAge/>
+    <EmployeeDropdown/>
+    <ITDepartment/>
+    <SortEmployees/>
+    <GroupDepartment/>
+    <TeenagerCheck/>
+    <SearchEmployee/>
   </React.StrictMode>
 );
 
